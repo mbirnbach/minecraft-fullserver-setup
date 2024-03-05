@@ -19,6 +19,9 @@ java -jar BuildTools.jar --final-name server.jar
 
 cd ..
 
+echo "Adding final directory..."
+sudo mkdir /var/minecraft
+
 echo "Adding minecraft user..."
 sudo groupadd -r minecraft
 
