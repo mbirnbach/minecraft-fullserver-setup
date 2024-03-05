@@ -4,8 +4,9 @@ Tested with Ubuntu Server.
 
 ## Usage
 1. Clone this repo onto your server (`git clone https://github.com/mbirnbach/minecraft-fullserver-setup.git`)
-2. Run `sudo chmod +x installserver.sh`
-3. Run `sudo ./installserver.sh`
+2. Change Directory into the repos dir (`cd minecraft-fullserver-setup`)
+3. Run `sudo chmod +x installserver.sh`
+4. Run `sudo ./installserver.sh`
 
 ## Connecting to server console (only while server is running)
 1. Switch to user "minecraft" (`sudo su minecraft`)
