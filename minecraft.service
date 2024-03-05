@@ -20,7 +20,7 @@ PrivateTmp=true
 InaccessibleDirectories=/root /sys /srv -/opt /media -/lost+found
 ReadWriteDirectories=/var/minecraft/server
 WorkingDirectory=/var/minecraft/server
-ExecStart=bash start-server.sh
+ExecStart=bash startserver.sh
 
 [Install]
 WantedBy=multi-user.target
