@@ -3,7 +3,7 @@ This script installs all required tools, downloads the latest spigot server and 
 Tested with Ubuntu Server.
 
 ## Usage
-1. Clone this repo onto your server
+1. Clone this repo onto your server (`git clone https://github.com/mbirnbach/minecraft-fullserver-setup.git`)
 2. Run `sudo chmod +x installserver.sh`
 3. Run `sudo ./installserver.sh`
 
