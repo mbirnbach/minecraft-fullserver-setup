@@ -27,14 +27,15 @@ sudo groupadd -r minecraft
 
 sudo useradd -r -g minecraft -d "/var/minecraft" -s "/bin/bash" minecraft
 
-sudo chown minecraft.minecraft -R /var/minecraft/
-
 echo "Copying files to final directory..."
 sudo mv ./mc-tmp /var/minecraft/server
 
 sudo mv startserver.sh /var/minecraft/server/startserver.sh
 
 sudo mv minecraft.service /etc/systemd/system/minecraft.service
+
+echo "Setting permissions..."
+sudo chown minecraft.minecraft -R /var/minecraft/
 
 echo "Restarting systemd deamon..."
 sudo systemctl daemon-reload
